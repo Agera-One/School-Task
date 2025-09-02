@@ -25,5 +25,7 @@ public class Main {
             default:
                 System.out.println("Pilihan tidak valid.");
         }
+        
+        sc.close();
     }
 }

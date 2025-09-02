@@ -29,5 +29,7 @@ public class Limas extends Persegi {
 
         Limas l = new Limas(panjang, lebar, tinggi);
         System.out.println("Luas permukaan limas: " + l.luasPermukaan());
+        
+        sc.close();
     }
 }

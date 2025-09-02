@@ -26,5 +26,7 @@ public class Balok extends Persegi {
 
         Balok b = new Balok(panjang, lebar, tinggi);
         System.out.println("Luas permukaan balok: " + b.luasPermukaan());
+        
+        sc.close();
     }
 }
